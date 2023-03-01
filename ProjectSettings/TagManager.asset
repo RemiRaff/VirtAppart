@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Pop0
+  - Prop1
+  - Prop3
+  - Prop2
   layers:
   - Default
   - TransparentFX
