@@ -9,13 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Agence.unity
     guid: 56553207f997c464f93adfd8a318b4ff
   - enabled: 1
-    path: Assets/Scenes/Voisinage.unity
-    guid: 35acf5682fe8d8644a8104eb5724e829
-  - enabled: 1
-    path: Assets/Scenes/VitAppart.unity
-    guid: 417f10a8c2b8bc340bd17e93ae0741b6
+    path: Assets/Scenes/NYC_Block_6_copy.unity
+    guid: dafd7a5d6164bce4e86c29ed7b69723a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8bcac9619db7d4647855564b6971ad54,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 48bd5e75ac930eb4aa7caddf28d51ecc,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 624969f916e905c46b0b8f49a5cdb936,
       type: 2}
