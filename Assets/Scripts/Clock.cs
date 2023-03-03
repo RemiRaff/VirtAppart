@@ -36,7 +36,7 @@ public class Clock : MonoBehaviour
         int secondsInt = int.Parse(System.DateTime.UtcNow.ToString("ss"));
         int minutesInt = int.Parse(System.DateTime.UtcNow.ToString("mm"));
         int hoursInt = int.Parse(System.DateTime.UtcNow.ToLocalTime().ToString("hh"));
-        print(hoursInt + " : " + minutesInt + " : " + secondsInt);
+        // print(hoursInt + " : " + minutesInt + " : " + secondsInt);
         // iTween asset from unity
         iTween.RotateTo(secondHand, iTween.Hash(axe, secondsInt * 6 * sens, "time", 1, "easetype", "easeOutQuint"));
         iTween.RotateTo(minuteHand, iTween.Hash(axe, minutesInt * 6 * sens, "time", 1, "easetype", "easeOutElastic"));
