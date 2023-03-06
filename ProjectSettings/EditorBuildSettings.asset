@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NYC_Block_6_copy.unity
     guid: dafd7a5d6164bce4e86c29ed7b69723a
+  - enabled: 1
+    path: Assets/Scenes/Voisinage.unity
+    guid: b593b4d8769537842be05476b0be3090
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8bcac9619db7d4647855564b6971ad54,
       type: 2}

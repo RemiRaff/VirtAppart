@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
 {
-    [SerializeField] Scene sceneToLoad;
+    [SerializeField] string sceneName;
 
     public void NextScene()
     {
-        SceneManager.LoadScene(sceneToLoad.buildIndex);
+        SceneManager.LoadScene(sceneName);
     }
 }
