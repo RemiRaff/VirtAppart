@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1795909284842312261}
   - component: {fileID: 7952348289704963509}
   - component: {fileID: 314306138808287999}
+  - component: {fileID: 8067919103912071943}
   m_Layer: 0
   m_Name: property
   m_TagString: Untagged
@@ -160,7 +161,19 @@ MonoBehaviour:
       m_Calls: []
   m_Activated:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8067919103912071943}
+        m_TargetAssemblyTypeName: DisplayDescription, Assembly-CSharp
+        m_MethodName: toggleDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Deactivated:
     m_PersistentCalls:
       m_Calls: []
@@ -204,6 +217,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+--- !u!114 &8067919103912071943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432792536571418294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b37c2097552d094bb505d6174eb7f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  descriptionPanel: {fileID: 2005015840192788160}
 --- !u!1 &2005015840192788160
 GameObject:
   m_ObjectHideFlags: 0
